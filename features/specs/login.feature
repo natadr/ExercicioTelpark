@@ -4,13 +4,13 @@
 Funcionalidade: Login Telpark
 
 @sucesso
-  Cenario: Login com sucesso ao Telpark
+  Cenário: Validar login com sucesso ao Telpark
     Dado que estou na página de login
     Quando eu faço login com email e senha válidos
     Então devo ver o email logado na tela
 
 @falha
-  Esquema do Cenario: Login sem sucesso ao Telpark
+  Esquema do Cenário: Validar login sem sucesso ao Telpark
     Dado que estou na página de login
     Quando eu faço login com <email> e <senha>
     Então devo ver a mensagem de alerta <mensagem>
@@ -24,6 +24,3 @@ Funcionalidade: Login Telpark
 
 
 
-# colocar no git
-# incluir relatorio
-# fazer mais cenarios depois 

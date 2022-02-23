@@ -4,6 +4,8 @@ require 'capybara/rspec'
 require 'selenium-webdriver'
 require 'site_prism'
 require 'pry'
+require 'allure-cucumber'
+require 'faker'
 
 Capybara.register_driver :site_prism do |app|
     Capybara::Selenium::Driver.new(app, browser:  :chrome) 
@@ -16,4 +18,3 @@ Capybara.configure do |config|
     config.default_max_wait_time = 10  
     config.app_host = 'https://app.telpark.com' 
 end
-
