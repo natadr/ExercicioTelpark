@@ -1,7 +1,5 @@
 FROM ruby:2.3
 
-MAINTAINER Felipe Rodrigues <felipe_rodriguesx@hotmail.com>
-
 #ENV BUNDLER_VERSION=2.1.4
 ENV app_path /opt/jenkins/
 
