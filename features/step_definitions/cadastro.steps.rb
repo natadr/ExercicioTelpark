@@ -8,5 +8,5 @@ end
 
 Então('recebo uma mensagem para verificação de email') do
     @massa_cadastro = YAML.load_file("fixtures/cadastro.yml") 
-    expect(@paginas.cadastro.msg_verificar_email).to include @massa_cadastro['mesg_verificar_email']  
+    expect(@paginas.cadastro.msg_verificar_email).to include @massa_dados['mesg_verificar_email']  
 end

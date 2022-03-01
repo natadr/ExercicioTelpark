@@ -1,6 +1,6 @@
 #language: pt
 
-@smoke
+@all
 Funcionalidade: Reset de senha Telpark
 
   Cenário: Validar recuperação de senha com sucesso

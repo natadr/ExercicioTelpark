@@ -1,6 +1,5 @@
 Dado('que estou na página de login') do  
-    @paginas.login.load   
-    @email                    
+    @paginas.login.load                       
 end
 
 Dado('acesso a recuperação de senha') do

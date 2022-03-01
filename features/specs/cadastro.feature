@@ -1,6 +1,6 @@
 #language: pt
 
-@smoke
+@all
 Funcionalidade: Cadastro de Usuário Telpark
 
   Cenario: Validar cadastro do usuário com sucesso

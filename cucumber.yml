@@ -1,1 +1,3 @@
 default: --no-source --color --format pretty --format html --out report.html
+remote: BROWSER=remote
+all: -t @all

@@ -1,6 +1,6 @@
 #language: pt
 
-@smoke
+@all
 Funcionalidade: Login Telpark
 
 @sucesso
